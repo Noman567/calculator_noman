@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #cbfb3f, #262122 );
+}
+.container{
+    border: 5px solid #262122;
+    border-radius: 20px;
+    padding: 20px;
+    background:transparent;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.container h1{
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+}
+.container input{
+    width: 330px;
+    height: 75px;
+    margin: 5px;
+    padding: 20px;
+    text-align: right;
+    background: transparent;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+.container input::placeholder{
+    color: white;
+}
+button{
+    border: none;
+    width: 70px;
+    height: 40px;
+    /* padding: 20px; */
+    margin: 5px;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
+}
+.zero{
+    width: 160px;
+}
+.equal{
+    background-color: rgba(17, 51, 37, 0.253);
+    color: rgb(231, 155, 62);
+}
+.equal:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 2px 4px 8px 5px darkgreen;
+}
